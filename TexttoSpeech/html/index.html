@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="../css/style.css">
+    <title>TTS</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Text to Speech Converter</h1>
+        <textarea id="texttospeech" placeholder="Type your content..."></textarea>
+        <button onclick="speakText()">Speak</button>
+    </div>
+    <script>
+        function speakText() {
+            var textArea = document.getElementById('texttospeech');
+            var utterance = new SpeechSynthesisUtterance(textArea.value);
+            utterance.rate = 1;
+            utterance.volume = 1;
+            utterance.pitch = 1;
+
+            
+            if ('speechSynthesis' in window) {
+                window.speechSynthesis.speak(utterance);
+            } else {
+                alert('Sorry, your browser does not support text-to-speech.');
+            }
+        }
+    </script>
+</body>
+</html>

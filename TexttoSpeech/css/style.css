@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.dev/svgjs' width='1440' height='560' preserveAspectRatio='none' viewBox='0 0 1440 560'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1000%26quot%3b)' fill='none'%3e%3crect width='1440' height='560' x='0' y='0' fill='%230e2a47'%3e%3c/rect%3e%3crect width='228' height='228' clip-path='url(%26quot%3b%23SvgjsClipPath1001%26quot%3b)' x='792.09' y='417.69' fill='url(%26quot%3b%23SvgjsPattern1002%26quot%3b)' transform='rotate(74.63%2c 906.09%2c 531.69)'%3e%3c/rect%3e%3cpath d='M777.27 427.03 L831.6299999999999 505.33L870.6639761418658 399.9660238581341z' stroke='%23d3b714' stroke-width='2.57' stroke-dasharray='2%2c 2'%3e%3c/path%3e%3crect width='60' height='60' clip-path='url(%26quot%3b%23SvgjsClipPath1003%26quot%3b)' x='1380.16' y='208.77' fill='url(%26quot%3b%23SvgjsPattern1004%26quot%3b)' transform='rotate(96.85%2c 1410.16%2c 238.77)'%3e%3c/rect%3e%3crect width='228' height='228' clip-path='url(%26quot%3b%23SvgjsClipPath1005%26quot%3b)' x='47.81' y='210.32' fill='url(%26quot%3b%23SvgjsPattern1006%26quot%3b)' transform='rotate(166.16%2c 161.81%2c 324.32)'%3e%3c/rect%3e%3cpath d='M228.42000000000002 169.31 L97.64 287.5L54.10051505429509 119.47551505429509z' stroke='%23e73635' stroke-width='1.9' stroke-dasharray='2%2c 2'%3e%3c/path%3e%3crect width='175.68' height='175.68' clip-path='url(%26quot%3b%23SvgjsClipPath1007%26quot%3b)' x='887.43' y='-11.37' fill='url(%26quot%3b%23SvgjsPattern1008%26quot%3b)' transform='rotate(193.88%2c 975.27%2c 76.47)'%3e%3c/rect%3e%3crect width='81.6' height='81.6' clip-path='url(%26quot%3b%23SvgjsClipPath1009%26quot%3b)' x='426.67' y='295.05' fill='url(%26quot%3b%23SvgjsPattern1010%26quot%3b)' transform='rotate(340.55%2c 467.47%2c 335.85)'%3e%3c/rect%3e%3cpath d='M558.5 138.57 L427.79 189.2L568.6846567286152 239.42465672861516z' stroke='%23037b0b' stroke-width='2.68' stroke-dasharray='4%2c 4'%3e%3c/path%3e%3crect width='312' height='312' clip-path='url(%26quot%3b%23SvgjsClipPath1011%26quot%3b)' x='479.75' y='-42.97' fill='url(%26quot%3b%23SvgjsPattern1012%26quot%3b)' transform='rotate(337.32%2c 635.75%2c 113.03)'%3e%3c/rect%3e%3cpath d='M818.51 349.49 L715.0699999999999 347.33L716.8657698903202 398.3342301096797z' stroke='%23037b0b' stroke-width='2.23'%3e%3c/path%3e%3crect width='208.12' height='208.12' clip-path='url(%26quot%3b%23SvgjsClipPath1013%26quot%3b)' x='592.67' y='132.07' fill='url(%26quot%3b%23SvgjsPattern1014%26quot%3b)' transform='rotate(351.18%2c 696.73%2c 236.13)'%3e%3c/rect%3e%3crect width='288' height='288' clip-path='url(%26quot%3b%23SvgjsClipPath1015%26quot%3b)' x='720.72' y='-108.7' fill='url(%26quot%3b%23SvgjsPattern1016%26quot%3b)' transform='rotate(323.53%2c 864.72%2c 35.3)'%3e%3c/rect%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1000'%3e%3crect width='1440' height='560' fill='white'%3e%3c/rect%3e%3c/mask%3e%3cpattern x='0' y='0' width='6' height='6' patternUnits='userSpaceOnUse' id='SvgjsPattern1002'%3e%3cpath d='M0 6L3 0L6 6' stroke='%23d3b714' fill='none'%3e%3c/path%3e%3c/pattern%3e%3cclipPath id='SvgjsClipPath1001'%3e%3ccircle r='57' cx='906.09' cy='531.69'%3e%3c/circle%3e%3c/clipPath%3e%3cpattern x='0' y='0' width='6' height='6' patternUnits='userSpaceOnUse' id='SvgjsPattern1004'%3e%3cpath d='M0 6L3 0L6 6' stroke='%23e73635' fill='none'%3e%3c/path%3e%3c/pattern%3e%3cclipPath id='SvgjsClipPath1003'%3e%3ccircle r='15' cx='1410.16' cy='238.77'%3e%3c/circle%3e%3c/clipPath%3e%3cpattern x='0' y='0' width='6' height='6' patternUnits='userSpaceOnUse' id='SvgjsPattern1006'%3e%3cpath d='M0 6L3 0L6 6' stroke='%23037b0b' fill='none'%3e%3c/path%3e%3c/pattern%3e%3cclipPath id='SvgjsClipPath1005'%3e%3ccircle r='57' cx='161.81' cy='324.32'%3e%3c/circle%3e%3c/clipPath%3e%3cpattern x='0' y='0' width='10.98' height='10.98' patternUnits='userSpaceOnUse' id='SvgjsPattern1008'%3e%3cpath d='M0 10.98L5.49 0L10.98 10.98' stroke='%23d3b714' fill='none'%3e%3c/path%3e%3c/pattern%3e%3cclipPath id='SvgjsClipPath1007'%3e%3ccircle r='43.92' cx='975.27' cy='76.47'%3e%3c/circle%3e%3c/clipPath%3e%3cpattern x='0' y='0' width='81.6' height='8.16' patternUnits='userSpaceOnUse' id='SvgjsPattern1010'%3e%3crect width='81.6' height='4.08' x='0' y='0' fill='%23d3b714'%3e%3c/rect%3e%3crect width='81.6' height='4.08' x='0' y='4.08' fill='rgba(0%2c 0%2c 0%2c 0)'%3e%3c/rect%3e%3c/pattern%3e%3cclipPath id='SvgjsClipPath1009'%3e%3ccircle r='20.4' cx='467.47' cy='335.85'%3e%3c/circle%3e%3c/clipPath%3e%3cpattern x='0' y='0' width='312' height='6' patternUnits='userSpaceOnUse' id='SvgjsPattern1012'%3e%3crect width='312' height='3' x='0' y='0' fill='%23e73635'%3e%3c/rect%3e%3crect width='312' height='3' x='0' y='3' fill='rgba(0%2c 0%2c 0%2c 0)'%3e%3c/rect%3e%3c/pattern%3e%3cclipPath id='SvgjsClipPath1011'%3e%3ccircle r='78' cx='635.75' cy='113.03'%3e%3c/circle%3e%3c/clipPath%3e%3cpattern x='0' y='0' width='9.46' height='9.46' patternUnits='userSpaceOnUse' id='SvgjsPattern1014'%3e%3cpath d='M0 9.46L4.73 0L9.46 9.46' stroke='%23d3b714' fill='none'%3e%3c/path%3e%3c/pattern%3e%3cclipPath id='SvgjsClipPath1013'%3e%3ccircle r='52.03' cx='696.73' cy='236.13'%3e%3c/circle%3e%3c/clipPath%3e%3cpattern x='0' y='0' width='288' height='6' patternUnits='userSpaceOnUse' id='SvgjsPattern1016'%3e%3crect width='288' height='3' x='0' y='0' fill='%23037b0b'%3e%3c/rect%3e%3crect width='288' height='3' x='0' y='3' fill='rgba(0%2c 0%2c 0%2c 0)'%3e%3c/rect%3e%3c/pattern%3e%3cclipPath id='SvgjsClipPath1015'%3e%3ccircle r='72' cx='864.72' cy='35.3'%3e%3c/circle%3e%3c/clipPath%3e%3c/defs%3e%3c/svg%3e"););
+}
+h1{
+    font-size: 30px;
+    margin: 20px 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-shadow: 10px 5px 10px black;
+}
+textarea{
+    width: 300px;
+    height: 100px;
+    margin: 20px 0;
+    box-shadow: 10px 5px 10px black;
+    border: none;
+}
+button{
+    background: black;
+    color: white;
+    padding: 12px;
+    width: 100px;
+    cursor: pointer;
+}
