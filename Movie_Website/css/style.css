@@ -1,0 +1,135 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    color: white;
+}
+.nav{
+    background-color: rgb(1, 0, 12);
+    max-width: 1500px;
+    max-height: max-content;
+    margin: 0;
+    height: 57px;
+    box-sizing: content-box;
+    display: inline-flex;
+    width: 100%;
+    background-attachment: fixed;
+}
+.nav .logo img{
+    padding: 10px 10px 10px;
+    height: 50%;
+    width: 12rem;
+    object-fit: contain;
+}
+.nav .option{
+    float: right;
+}
+.nav .option ul li a{
+    text-decoration: none;
+    padding-right: 2px;
+}
+.nav .option ul li a button{
+    background-color: rgb(1, 0, 12);
+    width: max-content;
+    color: rgb(241, 234, 234);
+    font-size: medium;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;  
+    border-radius: 7px;
+}
+.nav .option ul li a button:hover{
+    color: rgb(5, 5, 5);
+    background-color: white;
+}
+.nav .option ul{
+    list-style-type: none;
+    display: flex;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    
+}
+.nav .option ul li{
+    margin-right: 10px;
+}
+.nav .input{
+    margin-left: 15px;
+    width: max-content;
+    height: max-content;
+}
+.nav .input input {
+    background-image: url("../images/search_icon.jpg");
+    background-size: 35px 35px;
+    background-blend-mode: lighten;
+    object-fit: contain;
+    background-repeat: no-repeat;
+    background-color: rgb(1, 0, 12);
+    font-size: 15px;
+    color: white;
+    width: 450px;
+    padding: 10px 0px 10px 40px;
+    border-bottom: 2px solid white; 
+    box-sizing: border-box;
+    border: none;
+}  
+nav .input .btn button{
+    height: 20px;
+    width: auto;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding-bottom: 10px;
+    margin-left: 9rem;
+    border: none;
+    color: rgb(204, 196, 196);
+    font-size: 15px;
+    background-color: rgb(1, 0, 12);
+}
+nav .input .btn button:hover{
+    color:wheat;
+}
+.despt2{
+    font-size: 30px;
+    color: yellow;
+    font-family: sans-serif;
+    text-align: center;
+    background-color: rgb(77, 75, 75);
+}
+.despt{
+    margin: 0;
+    padding: 0;
+    position: relative;
+    text-align: auto;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(170, 170, 10);
+}
+.despt h2{
+    font-weight: bold;
+    font-size: 50px;
+    -webkit-animation: despt 0.5s ease-in-out infinite alternate;
+    -moz-animation: despt 0.5s ease-in-out infinite alternate;
+     animation: despt 0.5s ease-in-out infinite alternate;
+     text-align: center;
+}
+.intro{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: black;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    transform: scale(0);
+    transition: 0.5s ease;
+}
+.despt:hover .intro{
+    transform: scale(1);
+}
+.innerintro{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+    text-align: center;
+}
+.img2{
+    height: auto;
+    width: 100%;
+}
